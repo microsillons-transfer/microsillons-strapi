@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "podcast_pages",
+  "info": {
+    "singularName": "podcast-page",
+    "pluralName": "podcast-pages",
+    "displayName": "PodcastPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titrePage": {
+      "type": "string"
+    },
+    "descriptionPage": {
+      "type": "text"
+    },
+    "favicon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo-par-default"
+    }
+  }
+}

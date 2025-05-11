@@ -4,7 +4,8 @@
   "info": {
     "singularName": "sponsor",
     "pluralName": "sponsors",
-    "displayName": "Sponsor"
+    "displayName": "Compagnons",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,14 +16,15 @@
       "type": "string"
     },
     "logo": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "url": {
       "type": "string"
