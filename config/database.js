@@ -10,8 +10,7 @@ module.exports = ({ env }) => ({
       ssl: env.bool("DATABASE_SSL") ? {
         rejectUnauthorized: false,
       } : false,
+      schema: "public",
     },
   },
 });
-
-// postgresql://microsillons:microsillons@91.99.147.50:5434/microsillons
